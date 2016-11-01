@@ -1,0 +1,7 @@
+{
+  "name": "no-kafka",
+  "main": "index.d.ts",
+  "globalDependencies": {
+    "node": "registry:env/node"
+  }
+}
