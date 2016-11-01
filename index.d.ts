@@ -1,4 +1,4 @@
-declare namespace Kafka {
+export namespace Kafka {
   interface Message {
     topic: string;
     partition?: number;
@@ -162,7 +162,7 @@ export class GroupAdmin {
   describeGroup():Promise<Kafka.GroupDescription>;
 }
 
-let WeightedRoundRobinAssignment;
-let ConsistentAssignment;
-let RoundRobinAssignment;
+declare let WeightedRoundRobinAssignment;
+declare let ConsistentAssignment;
+declare let RoundRobinAssignment;
 export {WeightedRoundRobinAssignment, ConsistentAssignment, RoundRobinAssignment};
